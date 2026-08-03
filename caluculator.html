@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>caluculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+  <div id="box">
+    <h1>Calculator</h1>
+    <div id="container">
+      <label for="num1">Enter the first value</label>
+      <input type="text" id="num1" placeholder="first value "><br><br>
+      <label for="num2">Enter the second value</label>
+      <input type="text" id="num2" placeholder="second value "><br><br>
+      <div id="buttonbox">
+        <button type="button" onclick="add()">addition</button>
+        <button type="button" onclick="sub()">subtract</button>
+        <button type="button" onclick="mul()">multiplication</button>
+        <button type="button" onclick="div()">division</button>
+        <button type="button" onclick="clr()">clear</button>
+      </div>
+      <p id="result"></p>
+    </div>
+  </div>
+  <script>
+    function add() {
+      let a = parseInt(document.getElementById("num1").value);
+      let b = parseInt(document.getElementById("num2").value);
+      document.getElementById("result").innerHTML = a + b;
+    }
+    function sub() {
+      let a = parseInt(document.getElementById("num1").value);
+      let b = parseInt(document.getElementById("num2").value);
+      document.getElementById("result").innerHTML = a - b;
+    }
+
+    function mul() {
+      let a = parseInt(document.getElementById("num1").value);
+      let b = parseInt(document.getElementById("num2").value);
+      document.getElementById("result").innerHTML = a * b;
+    }
+    function div() {
+      let a = parseInt(document.getElementById("num1").value);
+      let b = parseInt(document.getElementById("num2").value);
+      document.getElementById("result").innerHTML = a / b;
+    }
+    function clr() {
+      let a = parseInt(document.getElementById("num1").value = " ");
+      let b = parseInt(document.getElementById("num2").value = " ");
+      document.getElementById("result").innerHTML = " ";
+    }
+  </script>
+</body>
+
+</html>
