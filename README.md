@@ -46,3 +46,6 @@ Calculator/
 *Vijay Singh*
 
 Learning Web Development and building projects using HTML, CSS, and JavaScript.
+
+<hr>
+<h3 align="center">if you like this project, don't forget to star this repository</h3>
