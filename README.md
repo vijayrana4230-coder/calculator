@@ -26,7 +26,7 @@ Calculator/
 └── README.md
 </pre>
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository.
 2. Open the project folder.
